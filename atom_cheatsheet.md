@@ -48,7 +48,7 @@ Atom concept notes
 
 ### the command palette
 
--	The "Command Pallet" is a useful drop-down dialog that lists Atom commands. You can run any "command" by selecting it in the drop down menu. To see the commands (and key bindings) that are relevant to the currently focused GUI interface element press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd>
+-	The "Command Palette" is a useful drop-down dialog that lists Atom commands. You can run any "command" by selecting it in the drop down menu. To see the commands (and key bindings) that are relevant to the currently focused GUI interface element press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd>
 
 ### editor pane
 
@@ -56,7 +56,7 @@ Atom concept notes
 -	A "pane" can contain multiple tabs.
 -	You can show "Whitespace" in the editor by going to FILE > SETTINGS [RHS PANE] select/tick SHOW INVISIBLES. 
 -	The "Command Pallet" dialog gives you commands "to split a pane in two" and more. Press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd> simultaneously and then type "pane" in the dialog to get a list of pane related commands.
--	A useful plugin for working with panes is the "**resize-panes**" package. Unfortunately it doesn't work initially (it has Mac key bindings). Its fixable by editing the configuration file`~/.atom/packages/resize-panes/keymaps/resize-panes.cson` and appending the following to the file.
+-	A useful plugin for working with panes is the "**resize-panes**" package. Unfortunately it doesn't work initially (it has Mac key bindings). It's fixable by editing the configuration file`~/.atom/packages/resize-panes/keymaps/resize-panes.cson` and appending the following to the file.
 
 ```
  .platform-win32, .platform-linux':
@@ -443,7 +443,7 @@ Notifications
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#9003;</kbd> |        remove matching bracket |
 | <kbd>Ctrl</kbd> <kbd>m</kbd>                      |         go to matching bracket |
 
-#keybindding cheat sheet
+#keybinding cheat sheet
 
 | Keys                                        | Action                         |
 |:--------------------------------------------|-------------------------------:|
